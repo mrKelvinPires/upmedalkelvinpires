@@ -1,0 +1,10 @@
+{
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+
+    ]
+  } 
+}

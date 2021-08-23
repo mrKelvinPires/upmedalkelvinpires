@@ -2,15 +2,13 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "flex-layout.row#shelf",
+      "flex-layout.row#shelf",
+      "flex-layout.row#shelf",
+      "flex-layout.row#shelf",
       "newsletter"
     ]
   },
@@ -21,12 +19,24 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/9d6c262b-3fb9-4b60-a745-7fa23e3a9538___57211b3f9a10e339b8dfc63366f7750a.jpg",
+          "mobileImage": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/9d6c262b-3fb9-4b60-a745-7fa23e3a9538___57211b3f9a10e339b8dfc63366f7750a.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/355b1c71-f9d7-4699-a89b-245da90eca2e___16132ec7845551c9152db1b9843a74a4.png",
+          "mobileImage": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/1b7ca75d-326b-42bc-848d-00880765f529___457fb5fea3556eb22311ceb490fdd0d5.png"
+        },
+        {
+          "image": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/7f54ebd4-4e9f-45fd-9638-b040196289bc___a73b3120e28cf550d975bd116d3c4304.png",
+          "mobileImage": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/5d583214-a1b2-45e1-be9d-f4d979c20bf5___882f976a681d29d5bd34954a5afed2ee.jpg"
+        },
+        {
+          "image": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/5d583214-a1b2-45e1-be9d-f4d979c20bf5___882f976a681d29d5bd34954a5afed2ee.jpg",
+          "mobileImage": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/e14ecad1-f69f-49b8-b6d6-03e90d492a9c___a474d85316a377364e5cfe76b96eb082.png"
+        },
+        {
+          "image": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/f9a16dd8-88d4-4096-81f4-7c53f43827de___cc34823753e4d026bf3f6e654b610f19.jpg",
+          "mobileImage": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/f9a16dd8-88d4-4096-81f4-7c53f43827de___cc34823753e4d026bf3f6e654b610f19.jpg"
         }
       ]
     }
@@ -46,7 +56,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## OS MELHORES PRODUTOS VOCÊ ENCONTRA AQUI!",
       "blockClass": "shelfTitle"
     }
   },
@@ -63,8 +73,8 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
+        "desktop": 2,
+        "tablet": 2,
         "phone": 1
       },
       "infinite": true,
@@ -75,29 +85,13 @@
 
   "info-card#home": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
       "textAlignment": "center"
     }
   },
-
-  "rich-text#question": {
+  "newsletter":{
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "label": "Receba nossas promoções exclusivas!",
+      "submit": "RECEBER PROMOÇÕES"
     }
   }
 }

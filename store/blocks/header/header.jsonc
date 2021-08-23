@@ -8,9 +8,8 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "sticky-layout#4-desktop",
+      "flex-layout.row#3-desktop"
     ]
   },
 
@@ -21,17 +20,6 @@
     }
   },
 
-  "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
-    "props": {
-      "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
-    }
-  },
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -42,8 +30,7 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.col#spacer"
     ]
   },
   "flex-layout.col#spacer": {
@@ -92,7 +79,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/6eca485f-d453-41be-8f3e-84f701b4e9f4___2f7853b5b7e7dcb5b4ef8f4db6868e01.png",
       "width": "180"
     }
   },
@@ -136,7 +123,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://hiringcoders2021.vtexassets.com/assets/vtex.file-manager-graphql/images/6eca485f-d453-41be-8f3e-84f701b4e9f4___2f7853b5b7e7dcb5b4ef8f4db6868e01.png",
       "width": "70"
     }
   }

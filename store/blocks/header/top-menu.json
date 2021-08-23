@@ -1,13 +1,18 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
+      "menu-item#funny",
+      "menu-item#beach-party",
+      "menu-item#cities",
+      "menu-item#signos",
+      "menu-item#person",
+      "menu-item#flamengo",
       "menu-item#about-us"
     ]
   },
-  "menu-item#shop": {
+  "menu-item#funny": {
     "props": {
-      "id": "menu-item-shop",
+      "id": "menu-item-funny",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -15,28 +20,83 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Divertidos",
+        "text": "Divertidos"
       }
     }
   },
-  "vtex.menu@2.x:menu#institutional": {
-    "children": [
-      "menu-item#vtex-website"
-    ]
-  },
-  "menu-item#vtex-website": {
+  "menu-item#beach-party":{
     "props": {
-      "id": "menu-item-vtex-website",
+      "id": "menu-item-beach-party",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "http://vtex.com",
+        "type": "internal",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Beach Party",
+        "text": "Beach Party"
+      }
+    }
+  },
+  "menu-item#cities":{
+    "props": {
+      "id": "menu-item-cities",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cidades",
+        "text": "Cidades"
+      }
+    }
+  },
+  "menu-item#signos":{
+    "props": {
+      "id": "menu-item-signos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Signos",
+        "text": "Signos"
+      }
+    }
+  },
+  "menu-item#person":{
+    "props": {
+      "id": "menu-item-person",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalidades",
+        "text": "Personalidades"
+      }
+    }
+  },
+  "menu-item#flamengo":{
+    "props": {
+      "id": "menu-item-flamengo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Loja Flamengo",
+        "text": "Loja Flamengo"
       }
     }
   }

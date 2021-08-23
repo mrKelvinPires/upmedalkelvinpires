@@ -1,6 +1,6 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #303030;
+  color: #56f00e;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
@@ -9,12 +9,12 @@
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background-color: #303030;
   padding: 0px;
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #303030;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -46,14 +46,15 @@
 }
 
 .inputGroup :global(.vtex-button) {
-  background-color: transparent;
-  color: #fff;
+  background-color: #00fc22;
+  color: rgb(0, 0, 0);
   border: none;
   margin-right: -24px;
 }
 
 .buttonContainer {
   padding-top: 0px;
+  background-color: #00fc22;
 }
 
 .imageElement--storePrint {

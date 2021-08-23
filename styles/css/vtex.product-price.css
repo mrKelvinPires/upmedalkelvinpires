@@ -1,11 +1,11 @@
 .listPrice {
-  color: #727273;
+  color: #eeeef7;
   margin-bottom: .25rem;
   font-size: 1rem;
 }
 
 .sellingPrice {
-  color: #3f3f40;
+  color: #eeeef7;
   font-size: 1.25rem;
 }
 
@@ -15,23 +15,23 @@
 }
 
 .installments {
-  color: #727273;
+  color: #eeeef7;
   margin-bottom: 1rem;
 }
 
 .savings {
   font-weight: 500;
-  color: #79B03A;
+  color: #eeeef7;
 }
 
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #2E2E2E;
+  color: #eeeef7;
 }
 
 .savings--summary {
-  background: #8BC34A;
+  background: #eeeef7;
   border-radius: 1000px;
   align-items: center;
   display: flex;
@@ -64,7 +64,7 @@
 }
 
 .savings--summaryPercentage {
-  background: #0f3e99;
+  background: #59ff00;
   border-radius: 1000px;
   align-items: center;
   display: flex;
