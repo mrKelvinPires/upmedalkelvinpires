@@ -1,6 +1,6 @@
 .notificationBarContainer {
   background-color: #303030;
-  color: #56f00e;
+  color: #303030;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
@@ -54,7 +54,7 @@
 
 .buttonContainer {
   padding-top: 0px;
-  background-color: #00fc22;
+  background-color: #303030;
 }
 
 .imageElement--storePrint {
@@ -108,7 +108,7 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
+  color: #00fc22;
   font-weight: bold;
   font-size: 30px;
 }

@@ -6,8 +6,7 @@
       "menu-item#cities",
       "menu-item#signos",
       "menu-item#person",
-      "menu-item#flamengo",
-      "menu-item#about-us"
+      "menu-item#flamengo"
     ]
   },
   "menu-item#funny": {
@@ -21,7 +20,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Divertidos",
-        "text": "Divertidos"
+        "text": "DIVERTIDOS"
       }
     }
   },
@@ -36,7 +35,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Beach Party",
-        "text": "Beach Party"
+        "text": "BEACH PARTY"
       }
     }
   },
@@ -51,7 +50,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Cidades",
-        "text": "Cidades"
+        "text": "CIDADES"
       }
     }
   },
@@ -66,7 +65,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Signos",
-        "text": "Signos"
+        "text": "SIGNOS"
       }
     }
   },
@@ -81,7 +80,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Personalidades",
-        "text": "Personalidades"
+        "text": "PERSONALIDADES"
       }
     }
   },
@@ -96,7 +95,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Loja Flamengo",
-        "text": "Loja Flamengo"
+        "text": "FLAMEGO STORE"
       }
     }
   }

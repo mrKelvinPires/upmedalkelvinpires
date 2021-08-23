@@ -35,3 +35,11 @@ npm-debug.log
 lib
 *.orig
 react/package-lock.json
+
+.all-contributorsrc
+.editorconfig
+.gitattributes
+.gitignore
+.prettierignore
+.vtexignore
+.github
