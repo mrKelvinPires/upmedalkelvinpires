@@ -1,5 +1,6 @@
 {
   "store.home": {
+
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#deals",

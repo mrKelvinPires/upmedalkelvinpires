@@ -41,7 +41,7 @@
   font-size: 0.875rem;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .savings-discount--summary {
@@ -51,6 +51,8 @@
   color: #FFFFFF;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  text-align: center;
+
 }
 
 .listPrice--summary {
@@ -64,7 +66,6 @@
 }
 
 .savings--summaryPercentage {
-  background: #59ff00;
   border-radius: 1000px;
   align-items: center;
   display: flex;

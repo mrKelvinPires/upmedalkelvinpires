@@ -2,6 +2,7 @@
   color: #ffffff;
   text-align: center;
   justify-content: center;
+
 }
 
 .container--shelfTitle {
@@ -18,6 +19,8 @@
 
 .container--deals .paragraph {
   margin: 0;
+  text-align: center;
+
 }
 
 .container--link {
@@ -63,6 +66,7 @@
   font-size: 36px;
   font-weight: 300;
   color: #d4d4e4;
+
 }
 
 .container--title {
@@ -76,10 +80,12 @@
   .container--question .strong {
     font-size: 40px;
     line-height: 3rem;
+
   }
 
   .container--about {
     max-width: 85%;
+
   }
 
   .container--title {
@@ -88,6 +94,7 @@
     font-weight: 700;
     max-width: 60%;
     background-color: #303030;
+
   }
 
   .container--title .paragraph {
