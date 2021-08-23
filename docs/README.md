@@ -1,8 +1,6 @@
-# Store theme
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
+# DESAFIO UPMEDAL - FASE 2
+[IMAGEM SITE](https://github.com/mrKelvinPires/upmedalkelvinpires/blob/main/docs/00.png)
+
 
 ## Preview
 ![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
